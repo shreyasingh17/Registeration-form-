@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Register here</h1>
+        <form id="registerForm">
+            <div class="main">
+                <div class="input">
+                    <input type="text" id="userName" name="userName" placeholder="User Name">
+                    <span class="error-message" id="userNameError"></span>
+                </div>
+                <div class="input">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="input">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+                    <span class="error-message" id="phoneNumberError"></span>
+                </div>
+                <div class="input">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <span class="error-message" id="passwordError"></span>
+                </div>
+                <div class="input">
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                    <span class="error-message" id="confirmPasswordError"></span>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        <div id="displayData" class="display-data"></div>
+    </div> 
+    <script src="./script.js"></script>
+</body>
+</html>
